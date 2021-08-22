@@ -4,7 +4,6 @@ var api = {}
 
 api.dados = function(req, res) {
 
-    
     res.json([
         { montante: 200.5, vezes: 2 },
         { montante: 100.2, vezes: 5 },
